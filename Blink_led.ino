@@ -1,5 +1,5 @@
 
-const byte ledPin = 20; // 13 / 20
+const byte ledPin = 20; // 13/20
 const byte buttonPin = 9;
 byte buttonState = 0;
 boolean lightOn  = false;
@@ -26,12 +26,6 @@ if(buttonState == HIGH){
   digitalWrite(ledPin, LOW);    // set the LED off
   delay(1000);                  // wait for a second  
   */
-
-
-
-
-
-
   
   //switch
   /*
@@ -42,7 +36,6 @@ if(buttonState == HIGH){
  else
  lightOn = false;  
 }
-
 
 if(lightOn)
   digitalWrite(ledPin, HIGH);
